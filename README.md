@@ -10,14 +10,32 @@ Over a period of nine years in deep space, the NASA Kepler space telescope has b
 
 ## Data Source ##
 
+[Exoplanet Search Results](https://www.kaggle.com/nasa/kepler-exoplanet-search-results) This dataset contains over 10,000 exoplanet candidates examined by the Keplar Space Observatory.  This orbital telescope's primary goal is to search for exoplanets in star systems other than our own with the ultimate goal being to indentify habitable planets other than our own
+
 
 ## Machine Learning Model Process ##
 
+Models Selected -->  Logistic Regression |  Random Forest | Support Vector Classification
+
+- **Preprocess the Raw Data**
+  - Preprocessed the dataset prior to fitting the model.
+  - Performed feature selection and removed unnecessary features.
+      - Apply the `RFE` method to identify the importance of each feature.
+      - Selected only the features that support the outcome.
+  - Used `MinMaxScaler` to scale the numerical data.
+  - Separated the data into training and testing data.
+
+- **Tune Model Parameters**
+  - Use [Grid Search](https://scikit-learn.org/stable/modules/grid_search.html) to tune model parameters.
+  - Tune model
+  
+- **Compare Models created**
+  - Using model accuracy and resources used for choosing the best model
 
 ## Model Selection ##
 
 
-### Output ###
+### Outputs ###
 
 
 ### Model Summary ###
