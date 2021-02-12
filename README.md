@@ -1,4 +1,4 @@
-![Planet Picture](../Images/exoplanets.jpg)
+![Planet Picture](/Images/exoplanets.jpg)
 
 # Machine-Learning- Exoplanet Exploration #
 
