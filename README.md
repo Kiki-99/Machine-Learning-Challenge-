@@ -53,7 +53,7 @@ After running Fit/Test/Training on the data with three seperate models, the mode
 After training and fitting a model with selective features, applying `GridSearchCV` to tune the best model with different parameters. The result show that the best parameter is **'C': 1000, 'gamma': 1, 'kernel': 'linear' with 88.23% accuracy.**
 
 
-![SMV Selection](/Images/SVM Parameter Range.PNG)
+![SMV Selection](/Images/SVM Parameter Range.JPG)
 
 
 ### Outputs ###
