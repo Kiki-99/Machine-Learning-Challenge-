@@ -71,4 +71,9 @@ After training and fitting a model with selective features, applying `GridSearch
 ## Conclusion ##
 
 
-The pictures presented above show that even though the Random Forest model's accuracy is higher than the SVC model's accuracy, the training model duration was about an hour for Random Forest and 5 minutes for SVC with less than 100K samples. Therefore, if the model creation takes time and resources used into consideration, the SVC model tend to perform well within a limited budget and time.
+**Logistic Regression Accuracy** | **Random Forest Accuracy** | **Support Vector Classification**
+--------------------- | --------------------- | ---------------------
+![LR Accuracy](/Images/lr_accuracy.JPG)|![RF Accuracy](/Images/rf_accuracy.JPG)|![SVC Accuracy](/Images/svm_accuracy.JPG)
+
+
+In conclusion, the model that will be the best estimator for predicting exoplanet canidates is the Linear Support Vector Classification.  The chart above shows that even though the Random Forest model's accuracy is higher than the SVC model's accuracy, the training model duration was about 30 mins for Random Forest and 5 minutes for SVC with less than 100K samples. Therefore, if we take into consideration the time and resources it takes for model creation, the SVC model tends to perform well within a limited budget and time.
