@@ -34,7 +34,7 @@ Models Selected -->  Logistic Regression |  Random Forest | Support Vector Class
 
   - Use [Grid Search](https://scikit-learn.org/stable/modules/grid_search.html) to tune model parameters.
   
-  - Tune the model
+  - Tuned the model
   
 - **Compare Models created**
 
@@ -50,7 +50,7 @@ After running Fit/Test/Training on the data with three seperate models, the mode
 
   - There are less than 100K samples in the dataset.
 
-After training and fitting a model with selective features, applying `GridSearchCV` to tune the best model with different parameters. The result show that the best parameter is **'C': 1000, 'gamma': 1, 'kernel': 'linear' with 88.23% accuracy.**
+After training and fitting a model with selective features, applying `GridSearchCV` to tune the best model with different parameters. The result shows that the best parameter is **'C': 1000, 'gamma': 1, 'kernel': 'linear' with 88.32% accuracy.**
 
 
 ![SVM Selection](/Images/svm_parameter_range.JPG)
@@ -71,4 +71,4 @@ After training and fitting a model with selective features, applying `GridSearch
 ## Conclusion ##
 
 
-As the graph presented above, it shows that the Random Forest model accuracy is higher than SVC model accuracy. However, training model duration was about an hour for Random Forest and 5 minutes for SVC with less than 100K samples. Therefore, if the model creation takes time and resources used into consideration, the SVC model tend to perform well within a limited budget and time.
+The pictures presented above show that even though the Random Forest model's accuracy is higher than the SVC model's accuracy, the training model duration was about an hour for Random Forest and 5 minutes for SVC with less than 100K samples. Therefore, if the model creation takes time and resources used into consideration, the SVC model tend to perform well within a limited budget and time.
